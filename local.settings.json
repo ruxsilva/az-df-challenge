@@ -1,0 +1,17 @@
+{
+  "IsEncrypted": false,
+  "Values": {
+    "AzureWebJobsStorage": "UseDevelopmentStorage=true",
+    "FUNCTIONS_WORKER_RUNTIME": "python",
+
+    "CONTAINER_BACKEND": "fake",
+
+    "INGEST_IMAGE": "myacr.azurecr.io/ingest:latest",
+    "WORKER_IMAGE": "myacr.azurecr.io/worker:latest",
+    "AGGREGATE_IMAGE": "myacr.azurecr.io/aggregate:latest",
+
+    "POLL_INITIAL_SECONDS": "5",
+    "POLL_MAX_SECONDS": "60",
+    "POLL_MAX_ATTEMPTS": "720"
+  }
+}

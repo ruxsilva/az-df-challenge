@@ -1,0 +1,8 @@
+# Core runtime — enough to run the default ('fake') backend end-to-end.
+azure-functions
+azure-functions-durable
+
+# The ACI backend (CONTAINER_BACKEND=aci) additionally needs:
+#   azure-identity
+#   azure-mgmt-containerinstance
+# Left commented to keep the sample installable/runnable offline.
